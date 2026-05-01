@@ -2,18 +2,6 @@ import math   # for sqrt, trigonometry, logs, pi etc
 import statistics   # for mean median mode
 import numpy as np   # for matrix calculations
 
-# Example function structure
-
-def factorial_calc():
-    # Take integer input from user
-    n = int(input("Enter number: "))
-
-    # math.factorial computes factorial
-    result = math.factorial(n)
-
-    # display result
-    print("Factorial =", result)
-
 # ---------------- BASIC MATH ---------------- #
 
 def quadratic_solver():
